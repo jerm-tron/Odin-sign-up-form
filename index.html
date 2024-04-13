@@ -24,7 +24,55 @@
         </div>
         <div class="text-2">You <em>know</em> you want to.</div>
       </div>
-      <form action="/somewhere" method="post"></form>
+      <form action="/somewhere" method="post">
+        <h1>Let's do this!</h1>
+        <br />
+        <div id="information_columns">
+          <div class="information-1">
+            <ul>
+              <li><label for="firstname">FIRST NAME</label></li>
+              <li>
+                <input type="text" name="firstname" id="firstname" required />
+              </li>
+            </ul>
+            <br />
+            <ul>
+              <li><label for="email">EMAIL</label></li>
+              <li><input type="email" name="email" id="email" required /></li>
+            </ul>
+            <br />
+            <ul>
+              <li><label for="password">PASSWORD</label></li>
+              <li>
+                <input type="password" name="password" id="password" required />
+              </li>
+            </ul>
+          </div>
+          <br />
+          <div class="information-2">
+            <ul>
+              <li><label for="lastname">LAST NAME</label></li>
+              <li>
+                <input type="text" name="lastname" id="lastname" required />
+              </li>
+            </ul>
+            <br />
+            <ul>
+              <li><label for="phone">PHONE NUMBER</label></li>
+              <li>
+                <input type="tel" name="phone" id="phone" min="3" max="10" />
+              </li>
+            </ul>
+            <br />
+            <ul>
+              <li><label for="confirm">CONFIRM PASSWORD</label></li>
+              <li>
+                <input type="password" name="confirm" id="confirm" required />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </form>
     </div>
   </body>
 </html>
