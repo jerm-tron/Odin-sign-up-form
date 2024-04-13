@@ -6,3 +6,35 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*  Left side of website with Logo and background image*/
+.logo-hold {
+  background-image: url("syuhei-inoue-kaoHI0iHJPM-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 35%;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 15px;
+}
+
+.logo {
+  background-color: rgb(0 0 0 / 0.5);
+  font-family: "Shadows Into Light";
+  color: white;
+  font-size: 6.5rem;
+  position: relative;
+  top: 30%;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+
