@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --section-color: #f2f2f2;
+}
 
 body {
   width: 100vw;
@@ -51,7 +54,7 @@ img {
   height: 38%;
   display: flex;
   flex-direction: column;
-  background-color: #f2f2f2;
+  background-color: var(--section-color);
 }
 
 .text-1,
@@ -76,14 +79,14 @@ img {
 
 form {
   height: 30%;
-  border: 1px solid red;
+  display: flex;
+  box-shadow:5px 5px 20px gray ;
 }
 
 #information_columns {
   display: flex;
   height: 80%;
-  box-shadow: 0 4px 15px -2px gray;
-  padding:38px;
+  padding: 38px;
 }
 
 h1 {
@@ -128,9 +131,25 @@ button {
 
 .login-button {
   padding-top: 25px;
+  display: flex;
+  flex-direction: row;
 }
 /*  Bottom section */
 
 .last-section {
-  padding:;
+  display: flex;
+  height: 32%;
+  background-color: var(--section-color);
+  z-index: -1;
+}
+
+button {
+  height: 2rem;
+  padding: 10px 40px 30px 40px;
+  position: relative;
+  top: 2rem;
+}
+
+span {
+  justify-content: center;
 }
