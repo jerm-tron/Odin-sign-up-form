@@ -7,6 +7,7 @@
 }
 :root {
   --section-color: #f2f2f2;
+  --button-green: #097969;
 }
 
 body {
@@ -80,7 +81,7 @@ img {
 form {
   height: 30%;
   display: flex;
-  box-shadow:5px 5px 20px gray ;
+  box-shadow: 5px 5px 20px gray;
 }
 
 #information_columns {
@@ -125,7 +126,7 @@ button {
   font-size: 15px;
   border-radius: 9px;
   margin-left: 3rem;
-  background-color: #097969;
+  background-color: var(--button-green);
   color: white;
 }
 
@@ -138,18 +139,31 @@ button {
 
 .last-section {
   display: flex;
+  flex-direction: column;
   height: 32%;
   background-color: var(--section-color);
   z-index: -1;
 }
 
 button {
-  height: 2rem;
-  padding: 10px 40px 30px 40px;
-  position: relative;
-  top: 2rem;
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+  border-radius: 9px;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  background-color: #097969;
+  color: white;
+  width: 20%;
+}
+
+.last-section div {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  justify-content: center;
+  font-family: roboto, sans-serif;
 }
 
 span {
-  justify-content: center;
+  color: var(--button-green);
+  font-weight: 700;
 }
